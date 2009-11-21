@@ -33,7 +33,7 @@ describe "HashValidations" do
       
     end
 
-    it "Should return the message supplied for the validation if invalid" do
+    it "Should return the message supplied for the validation when not pass" do
       h = {}
       h.validates_presence_of :foo, :message => "foo is required!"
       h.should_not be_valid
