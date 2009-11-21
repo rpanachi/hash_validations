@@ -1,6 +1,10 @@
 = hash_validations
 
-Description goes here.
+A lib to help with hash validations.
+
+== Instalation
+
+== Usage
 
 == Note on Patches/Pull Requests
  
