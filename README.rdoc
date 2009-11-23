@@ -6,6 +6,18 @@ A lib to help with hash validations.
 
 == Usage
 
+require "hash_validations"
+
+def my_method(parameters = {})
+
+  options = {:default => "values"}.merge(parameters)
+  options.validates_presence_of :email, :message => "The email is required"
+  options.validates_numericallity_of :age, :message => "The age must be a number"
+
+  unless options.valid? raise ArgumentError.new("Invalid arguments: " + options.errors.humanize)
+
+end
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
