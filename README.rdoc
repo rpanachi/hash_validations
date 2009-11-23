@@ -4,6 +4,8 @@ A lib to help with hash validations.
 
 == Instalation
 
+  sudo gem install hash_validations -s http://gemcutter.org/
+
 == Usage
 
   require "hash_validations"
