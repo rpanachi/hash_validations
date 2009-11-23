@@ -1,6 +1,6 @@
 = hash_validations
 
-A lib to help with hash validations, based on "Validatable":http://github.com/jrun/validatable
+A lib to help with hash validations, based on Validatable: http://github.com/jrun/validatable
 
 == Instalation
 
