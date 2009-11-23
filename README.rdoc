@@ -6,7 +6,6 @@ A lib to help with hash validations.
 
 == Usage
 
-<code>
   require "hash_validations"
 
   def my_method(parameters = {})
@@ -18,7 +17,6 @@ A lib to help with hash validations.
     unless options.valid? raise ArgumentError.new("Invalid arguments: " + options.errors.humanize)
 
   end
-</code>
 
 == Note on Patches/Pull Requests
  
