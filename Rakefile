@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "hash_validations"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A lib to help with hash validations}
+    gem.description = %Q{A lib to help with hash validations, based on Validatable}
     gem.email = "rodrigopanachi@gmail.com"
     gem.homepage = "http://github.com/rpanachi/hash_validations"
     gem.authors = ["Rodrigo Panachi"]
